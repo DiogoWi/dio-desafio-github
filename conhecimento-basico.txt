@@ -1,0 +1,44 @@
+1. Configuração inicial:
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+
+2. Inicializar um repositório:
+git init — Cria um repositório local.
+
+3. Status e histórico:
+git status — Mostra as alterações nos arquivos.
+git log — Exibe o histórico de commits.
+
+4. Adicionar arquivos:
+git add nome-do-arquivo — Adiciona arquivos ao stage (prepara para commit).
+git add . — Adiciona todos os arquivos alterados ao stage.
+
+5. Fazer um commit:
+git commit -m "mensagem do commit" — Registra as mudanças.
+
+6. Ver diferenças:
+git diff — Mostra as diferenças entre arquivos alterados.
+
+7. Criar e trocar de branch:
+git branch — Lista as branches.
+git branch nome-da-branch — Cria uma nova branch.
+git checkout nome-da-branch — Troca para uma branch específica.
+git checkout -b nome-da-branch — Cria e já muda para a nova branch.
+
+1. Conectar ao GitHub:
+Criar um repositório novo no GitHub.
+Conectar ao repositório remoto:
+git remote add origin https://github.com/usuario/nome-do-repositorio.git
+
+2. Enviar código (push):
+git push origin main — Envia commits para o repositório remoto.
+
+3. Trazer atualizações (pull):
+git pull origin main — Atualiza seu repositório local com as mudanças remotas.
+
+4. Clonar um repositório:
+git clone https://github.com/usuario/nome-do-repositorio.git
+
+5. Pull Request (PR):
+Usado para sugerir mudanças em repositórios colaborativos.
+Passos: criar branch → fazer commits → push → abrir PR no GitHub.
